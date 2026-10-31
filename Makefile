@@ -17,3 +17,6 @@ lint:
 	$(UV) run --frozen ruff check app tests
 stop:
 	@echo "Foreground processes: Ctrl-C. Containers: docker compose down (keeps data)."
+
+serve-local:
+	$(UV) run --frozen --extra audio uvicorn app.api:app --host 127.0.0.1 --port $(PORT)

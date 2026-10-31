@@ -61,3 +61,5 @@ The local demonstration does not include production authentication, secret manag
 Implemented with Codex assistance for Daniel Popa. The owner should review the code, run it, make an independent change and rehearse the tradeoffs before presenting it at interview. That human understanding check is pending and cannot be verified automatically. See [development notes](docs/DEVELOPMENT.md).
 
 MIT for original source; dependencies/models retain their own licenses. See [third-party notices](THIRD_PARTY.md).
+
+Use `make serve-local` to start the API/UI with its optional local-model dependencies explicitly enabled.
