@@ -6,6 +6,12 @@ Local transcription and date clarification before booking.
 
 **Role focus:** Voice AI / Applied Python. **Status:** working local portfolio implementation, with synthetic data.
 
+## Demo
+
+![How Voice Appointment Intake works](docs/demo.gif)
+
+Edited replay of captured CLI outputs in deterministic fixture mode. This is not live model inference. [Full recording](docs/demo.mp4). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
+
 ## The engineering decision
 
 A local Whisper model transcribes audio. A conservative parser extracts unambiguous date/time inputs or requests clarification. Even confirmed intake is not a booking; availability belongs to a separate booking service.
