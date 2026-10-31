@@ -1,0 +1,32 @@
+{
+  "mode": "fixture",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:52:23.799590+00:00",
+  "elapsed_seconds": 0.0003,
+  "result": [
+    {
+      "status": "proposal",
+      "date": "2030-06-17",
+      "time": "09:00",
+      "timezone": "Europe/Madrid",
+      "transcript": "Please book an appointment on 2030-06-17 at 09:00.",
+      "requires_confirmation": true,
+      "booked": false
+    },
+    {
+      "status": "clarify",
+      "question": "Please confirm one date (YYYY-MM-DD) and one time (HH:MM).",
+      "transcript": "Can I come next Friday?"
+    },
+    {
+      "status": "clarify",
+      "question": "That date or time is invalid. Please correct it.",
+      "transcript": "I want an appointment on 2030-02-31 at 09:00."
+    },
+    {
+      "status": "clarify",
+      "question": "Please confirm one date (YYYY-MM-DD) and one time (HH:MM).",
+      "transcript": "Cancel my appointment."
+    }
+  ]
+}

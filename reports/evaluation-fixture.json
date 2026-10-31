@@ -1,0 +1,32 @@
+{
+  "mode": "fixture",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:50:43.963976+00:00",
+  "elapsed_seconds": 0.0005,
+  "result": {
+    "passed": true,
+    "cases": [
+      {
+        "text": "Please book an appointment on 2030-06-17 at 09:00.",
+        "expected": "proposal",
+        "actual": "proposal"
+      },
+      {
+        "text": "Can I come next Friday?",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "text": "I want an appointment on 2030-02-31 at 09:00.",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "text": "Cancel my appointment.",
+        "expected": "clarify",
+        "actual": "clarify"
+      }
+    ],
+    "mode_detail": "Transcript parser only; this is not speech recognition evaluation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "python": "3.12.13",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "hardware": "Apple M4, 16 GiB RAM",
+  "fixture_tests_passed": 5,
+  "postgres_test_skipped_in_default_run": 0,
+  "fixture_evaluation_passed": true,
+  "ollama_version": "0.40.13",
+  "local_models": [],
+  "dataset_sha256": {
+    "data/transcripts.json": "6b8ace8a542766e80e041fe6f0acaccaa281460b0b1ab7f5e8b57a5f7d5d3499",
+    "data/README.md": "10cc9badbe09cd169bc40be7ce1eeb07c53917509ccca8a774adef40fdffb645",
+    "data/sample.wav": "2aa2377acc4ef4ae5109421e09c68afbdcb68364ea0059b6f360bdd025480a69"
+  },
+  "owner_interview_review": "pending human review",
+  "speech_model_revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba"
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "local",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:44:36.521390+00:00",
+  "elapsed_seconds": 10.4896,
+  "result": {
+    "passed": true,
+    "transcription": {
+      "text": "I would like an appointment on June 17, 2030 at 9 in the morning.",
+      "language": "en",
+      "model": "faster-whisper/tiny.en",
+      "result": {
+        "status": "clarify",
+        "question": "Please confirm one date (YYYY-MM-DD) and one time (HH:MM).",
+        "transcript": "I would like an appointment on June 17, 2030 at 9 in the morning."
+      }
+    },
+    "limitation": "One synthetic spoken sample; no general ASR accuracy claim."
+  }
+}
